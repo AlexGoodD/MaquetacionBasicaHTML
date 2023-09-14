@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Description" content="primer página HTML 5,práctica de etiquetas básicas,| Galería">
+    <meta name="keywoeds" content="html, css, código, etiqueta,grupo 406, uanl,fav">
+    <title>Maquetación básica HTML | Galería</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <script>
+        function mostrarImagen(ruta) {
+            var imagenPrincipal = document.getElementById('imagenPrincipal');
+            imagenPrincipal.src = ruta;
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <!--imagen del logo--> <img src="img/logo.png" height="120px">
+        <h1>Harry Styles</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="galeria.html">Galería</a>
+        <a href="yo.html">Yo soy</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <div class="container-img">
+            <div class="galeria-img">
+
+                <img src="img/museo.jpg" onclick="mostrarImagen('img/museo.jpg')" />
+                <img src="img/golden.jpg" onclick="mostrarImagen('img/golden.jpg')" />
+                <img src="img/darketo.jpg" onclick="mostrarImagen('img/darketo.jpg')" />
+                <img src="img/upsi.jpg" onclick="mostrarImagen('img/upsi.jpg')" />
+
+            </div>
+        </div>
+    </div>
+    <div class="imagenPrincipal">
+        <p>Estas son algunas fotografías de videos que ha sacado harry styles a lo largo de su carrera como solista,
+            entre ellas el videoclip filtrado de "sweet crature" y el videoclip de golden (ambos de albumes pasados)
+            <br>
+            A lo largo de la carrera de Harry ha cambiado su estilo visual en sus videos, ya que antes eran un poco mas
+            tranquilos, con una paleta de colores pastel, pero ha ido experimentando y haciendo videos mas "atrevidos"
+            jugando con colores, formas y escenarios, pero siempre dejando un mensaje tras cada video.
+        </p>
+        <img id="imagenPrincipal" src="img/sweet.jpg" alt="Imagen Principal">
+        <!--<button onclick="mostrarImagen('imagen-nueva.jpg')">Cambiar imagen</button>-->
+    </div>
+    <footer>
+        <p>Derechos reservados Daniela Michelle Leza Torres &copy;Septiembre 2023.</p>
+    </footer>
+</body>
+
+</html>

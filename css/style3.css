@@ -1,0 +1,72 @@
+body {
+    background-color: #fefae0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(255, 200, 221);
+    color: rgb(205, 180, 219);
+    padding: 10px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+nav {
+    margin-left: left;
+    background-color: rgb(189, 224, 254);
+    height: 45px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+footer {
+    background-color: rgb(205, 180, 219);
+    color: rgb(11, 11, 11);
+    text-align: center;
+    padding: 10px;
+    height: 70px;
+}
+
+/*Forms */
+
+form {
+    background-color: rgb(189, 224, 254); /* Color azul cielo de fondo */
+    padding: 20px; /* Espacio interno alrededor del formulario */
+    border-radius: 10px; /* Bordes redondeados para el formulario */
+    width: 300px; /* Ancho del formulario */
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+}
+
+input {
+    margin: 20px;
+    padding: 8px;
+    max-width: auto;
+    font-size: 18px;
+}
+
+textarea {
+    font-size: 18px;
+    margin: 20px;
+    padding: 8px;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100px;
+}
