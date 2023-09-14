@@ -16,7 +16,7 @@ if(isset($_POST['enviar'])){
         $header .= "Reply-To: noreply@example.com"."\r\n";
         $header .= "X-Mailer: PHP/". phpversion();
 
-        $destinatario = "danymich807@gmail.com";
+        $destinatario = "alexvlogs2015@gmail.com";
         
         $mail = @mail($destinatario, $asunto, $mensaje, $header);
 
